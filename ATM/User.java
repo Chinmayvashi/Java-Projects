@@ -9,7 +9,8 @@ public class User {
     private String uuid;
     private byte pinHash[];
     private ArrayList<Account> accounts;
+}
 
-    
+public User(String firstname,String lastname, String pin, Bank theBank){
     
 }
